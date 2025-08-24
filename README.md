@@ -30,6 +30,8 @@
 # Overview
 
 A **professional-grade** Chrome extension featuring **sidebar drawing** and **webpage annotation** capabilities. Transform any website into your canvas with two powerful modes: **Side Panel Whiteboard** for dedicated drawing workspace and **Webpage Annotation Mode** for drawing directly on any web page. Draw anywhere, anytime with **smooth curves**, **object selection**, **canvas panning**, and **professional tools**!
+
+
 <img width="2520" height="1890" alt="WebWhiteboard+ (2)" src="https://github.com/user-attachments/assets/940fbcd7-27b5-4c01-b296-fa4f72aaf9c4" />
 
 
