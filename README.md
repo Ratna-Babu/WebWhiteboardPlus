@@ -1,8 +1,37 @@
-# WebWhiteboard+ v1.0 - Chrome Extension
+<p align="center">
+  
+<img width="3218" height="1040" alt="WebWhiteboard34+" src="https://github.com/user-attachments/assets/26536ea1-1c12-403c-b07d-d908c0637402" />
+
+</p>
+
+
+<h1 align="center">🖊️ WebWhiteboard+ v1.0 - Chrome Extension</h1>
+
+<p align="center"><i>Transform any website into your canvas with sidebar whiteboarding & webpage annotation ✨</i></p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License MIT">
+  </a>
+  <img src="https://img.shields.io/github/last-commit/Ratna-Babu/WebWhiteboardPlus" alt="Last Commit">
+  <img src="https://img.shields.io/github/languages/top/Ratna-Babu/WebWhiteboardPlus" alt="Top Language">
+  <img src="https://img.shields.io/github/languages/count/Ratna-Babu/WebWhiteboardPlus" alt="Languages">
+  <img src="https://img.shields.io/github/repo-size/Ratna-Babu/WebWhiteboardPlus" alt="Repo Size">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chrome-Extension-blue?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-purple?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
+
+
+# Overview
 
 A **professional-grade** Chrome extension featuring **sidebar drawing** and **webpage annotation** capabilities. Transform any website into your canvas with two powerful modes: **Side Panel Whiteboard** for dedicated drawing workspace and **Webpage Annotation Mode** for drawing directly on any web page. Draw anywhere, anytime with **smooth curves**, **object selection**, **canvas panning**, and **professional tools**!
-
 <img width="2520" height="1890" alt="WebWhiteboard+ (2)" src="https://github.com/user-attachments/assets/940fbcd7-27b5-4c01-b296-fa4f72aaf9c4" />
+
 
 
 ## ✨ **Key Features**
