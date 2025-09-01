@@ -165,10 +165,17 @@ class AdvancedWhiteboardEngine {
         });
         this.canvas.addEventListener('mouseup', (e) => this.handleEnd(e));
         this.canvas.addEventListener('mouseout', (e) => {
-            this.handleEnd(e);
-            this.eraserCursorPos = null;
-            this.penCursorPos = null;
-            if (this.tool === 'eraser' || this.tool === 'pen') this.render();
+            // Only finish drawing if pointer really left the document/window
+            const toEl = e.relatedTarget;
+            const reallyLeft = !toEl || toEl.nodeType === 9; // null or document
+            
+            if (reallyLeft && this.isDrawing) {
+                this.handleEnd(e);
+            }
+            
+            // Always freeze the preview at the last in-canvas position
+            // Don't clear eraserCursorPos/penCursorPos here
+            // They'll stay frozen until the next valid canvas mousemove
         });
         this.canvas.addEventListener('wheel', (e) => this.handleWheel(e));
         
@@ -1136,6 +1143,9 @@ class AdvancedWhiteboardEngine {
     
     // Add mouse tracking for eraser cursor
     updateHoverCursor(e) {
+        // Ignore moves not originating from the canvas
+        if (e.target !== this.canvas) return;
+    
         const pos = this.getMousePos(e);
         if (this.tool === 'eraser' && !this.isDrawing) {
             this.eraserCursorPos = pos;
@@ -1152,6 +1162,8 @@ class AdvancedWhiteboardEngine {
     setTool(tool) {
         this.tool = tool;
         this.canvas.style.cursor = this.getCursor();
+        if (tool !== 'eraser') this.eraserCursorPos = null;
+        if (tool !== 'pen') this.penCursorPos = null;
         this.clearSelection();
     }
     
