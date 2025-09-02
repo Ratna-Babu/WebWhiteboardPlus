@@ -1,269 +1,382 @@
-<p align="center">
-  
-<img width="3218" height="1040" alt="WebWhiteboard34+" src="https://github.com/user-attachments/assets/26536ea1-1c12-403c-b07d-d908c0637402" />
+# 🎨 WebWhiteboard+ 
+### *Transform Any Website Into Your Creative Canvas*
 
-</p>
+<div align="center">
 
+![WebWhiteboard+ Banner](https://github.com/user-attachments/assets/26536ea1-1c12-403c-b07d-d908c0637402)
 
-<h1 align="center">🖊️ WebWhiteboard+ v1.0 - Chrome Extension</h1>
+**The Ultimate Chrome Extension for Professionals Who Think Visually**
 
-<p align="center"><i>Transform any website into your canvas with sidebar whiteboarding & webpage annotation ✨</i></p>
+[![MIT License](https://img.shields.io/badge/License-MIT-00ff88.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-ff6b6b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chrome.google.com/webstore)
+[![Version](https://img.shields.io/badge/Version-1.0-4ecdc4?style=for-the-badge)](https://github.com/Ratna-Babu/WebWhiteboardPlus/releases)
+[![Stars](https://img.shields.io/github/stars/Ratna-Babu/WebWhiteboardPlus?style=for-the-badge&color=ffd93d)](https://github.com/Ratna-Babu/WebWhiteboardPlus/stargazers)
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License MIT">
-  </a>
-  <img src="https://img.shields.io/github/last-commit/Ratna-Babu/WebWhiteboardPlus" alt="Last Commit">
-  <img src="https://img.shields.io/github/languages/top/Ratna-Babu/WebWhiteboardPlus" alt="Top Language">
-  <img src="https://img.shields.io/github/languages/count/Ratna-Babu/WebWhiteboardPlus" alt="Languages">
-  <img src="https://img.shields.io/github/repo-size/Ratna-Babu/WebWhiteboardPlus" alt="Repo Size">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chrome-Extension-blue?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-purple?style=for-the-badge&logo=css3&logoColor=white" />
-</p>
-
-
-# Overview
-
-A **professional-grade** Chrome extension featuring **sidebar drawing** and **webpage annotation** capabilities. Transform any website into your canvas with two powerful modes: **Side Panel Whiteboard** for dedicated drawing workspace and **Webpage Annotation Mode** for drawing directly on any web page. Draw anywhere, anytime with **smooth curves**, **object selection**, **canvas panning**, and **professional tools**!
-
-
-<img width="2520" height="1890" alt="WebWhiteboard+ (2)" src="https://github.com/user-attachments/assets/940fbcd7-27b5-4c01-b296-fa4f72aaf9c4" />
-
-
-
-## ✨ **Key Features**
-
-### 🎯 **Two Powerful Drawing Modes**
-
-#### 📋 **Sidebar Drawing Workspace**
-
-- **Always accessible** Chrome side panel with full professional interface
-- **Dedicated drawing environment** separate from web browsing
-- **Complete toolset** organized in professional sections
-- **Perfect for**: Extended drawing sessions, detailed work, brainstorming
-- **Infinite canvas** with pan and zoom capabilities
-- **Persistent workspace** that stays with you across all tabs
-
-  <img width="1913" height="858" alt="Screenshot 2025-08-09 192827" src="https://github.com/user-attachments/assets/a7827bda-9376-4840-8666-8d59543f6024" />
-
-#### 🖊️ **Webpage Annotation Mode**
-
-- **Draw directly on any website** with overlay canvas
-- **Floating toolbar** that doesn't interfere with page content
-- **Per-website storage** - annotations persist when you return
-- **Perfect for**: Web feedback, visual notes, markup, collaboration
-- **One-click activation** from the sidebar panel
-
-  <img width="1208" height="785" alt="Screenshot 2025-08-09 193508" src="https://github.com/user-attachments/assets/00f6fc2b-2f59-4345-a4d2-887bf0def60f" />
-  <img width="1145" height="658" alt="Screenshot 2025-08-09 195129" src="https://github.com/user-attachments/assets/cb31db62-552c-4fd9-9dfe-ee71e11f5d76" />
-
-
-### 🎨 **Advanced Drawing Tools**
-
-- **Ultra-smooth drawing** with professional-quality strokes
-- **Individual tool sizes** - each tool remembers its own size setting
-- **Professional color palette** with 8 quick-access colors + custom color picker
-- **Precise size control** with real-time preview (1-50px range)
-
-### 🖱️ **Object Selection & Editing**
-
-- **Select tool** - click objects or drag selection box
-- **Move objects** - drag selected objects anywhere on canvas
-- **Edit after drawing** - change color and size of existing objects
-- **Multi-select** - select multiple objects at once
-- **Delete selected** - remove objects with Delete key or button
-- **Select All** - Ctrl+A to select everything
-
-### 🌐 **Infinite Canvas with Pan & Zoom**
-
-- **Pan canvas** - Middle mouse or Ctrl+click and drag
-- **Zoom in/out** - Mouse wheel with smart zoom-to-cursor
-- **Zoom controls** - Dedicated zoom in/out buttons
-- **Fit to content** - Auto-zoom to show all drawings
-- **Reset view** - Return to default position and zoom
-- **Zoom range** - 10% to 500% zoom levels
-
-### 🛠️ **Complete Tool Suite**
-
-- **Pen Tool**: Smooth curves and natural drawing
-- **Eraser Tool**: Clean object-based erasing
-- **Select Tool**: Move and edit objects
-- **Shape Tools**: Rectangle, Circle, Line with preview
-- **Text Tool**: Custom font size, click-to-place text
-
-### 💾 **Smart Features**
-
-- **Advanced Undo/Redo** with 100-step history
-- **Auto-save** with persistent storage
-- **Per-URL storage** for draw-on-page mode
-- **Export as PNG** with automatic bounds detection
-- **Professional UI** with gradient backgrounds and animations
-- **Status bar** with tool info, object count, and coordinates
-
-## 🚀 **Installation**
-
-### Method 1: Load as Unpacked Extension (Recommended)
-
-1. **Download or Clone** this repository to your computer
-2. **Open Chrome** and navigate to `chrome://extensions/`
-3. **Enable Developer Mode** (toggle in top-right corner)
-4. **Click "Load unpacked"** and select the whiteboard folder
-5. **The extension is now installed!** You'll see the professional whiteboard icon
-
-## 🎯 **Usage Guide**
-
-### 📋 **Side Panel Mode (Professional Workspace)**
-
-1. **Right-click** the extension icon → "Open Side Panel"
-2. Full professional interface with all tools organized in sections
-3. **Keyboard shortcuts**: P (pen), E (eraser), V (select), R (rectangle), etc.
-4. **Status bar** shows current tool, object count, and mouse position
-5. **Perfect for**: Extended drawing sessions, detailed work
-
-### 🖊️ **Webpage Annotation Mode (Website Drawing)**
-
-1. **Open Side Panel** and click "Draw on this page" button
-2. **Clean draggable toolbar** appears over the webpage
-3. **Fullscreen canvas overlay** for drawing directly on any website
-4. **Fixed drawing surface** - no scrolling or zooming interference
-5. **Per-website storage** - drawings persist when you return
-6. **Perfect for**: Web annotation, feedback, visual notes, markup
-
-## ⌨️ **Professional Keyboard Shortcuts**
-
-### **Global Shortcuts**
-
-- **Ctrl+Z**: Undo
-- **Ctrl+Y / Ctrl+Shift+Z**: Redo
-- **Ctrl+A**: Select All
-- **Ctrl+S**: Save as PNG
-- **Delete**: Delete selected objects
-- **Escape**: Clear selection / Exit draw-on-page mode
-
-### **Tool Shortcuts**
-
-- **P**: Pen Tool
-- **E**: Eraser Tool
-- **V**: Select Tool
-- **R**: Rectangle Tool
-- **C**: Circle Tool
-- **L**: Line Tool
-- **T**: Text Tool
-
-### **View Controls**
-
-- **Mouse Wheel**: Zoom in/out
-- **Middle Mouse**: Pan canvas
-- **Ctrl+Click+Drag**: Pan canvas
-
-## 🎨 **Advanced Features Explained**
-
-### **Smooth Drawing Engine**
-
-- **Curve interpolation** for natural-looking strokes
-- **High-DPI rendering** for crisp lines on all displays
-- **Anti-aliasing** for professional-quality output
-- **Pressure simulation** with variable line thickness
-
-### **Object Selection System**
-
-- **Click to select** individual objects
-- **Drag selection box** for multiple objects
-- **Visual feedback** with blue selection highlights
-- **Real-time editing** of selected objects
-
-### **Canvas Management**
-
-- **Infinite canvas** - draw beyond visible area
-- **Smart zooming** - zoom toward cursor position
-- **Pan and zoom persistence** - view settings saved
-- **Automatic bounds detection** for export
-
-### **Tool Memory System**
-
-- **Individual sizes** - pen (2px), eraser (20px), shapes (2px), text (16px)
-- **Color persistence** per tool
-- **Quick color palette** - 8 professional colors
-- **Custom color support** with full color picker
-
-## 📊 **Technical Specifications**
-
-### **Performance**
-
-- **60 FPS rendering** with requestAnimationFrame
-- **Efficient object storage** with JSON serialization
-- **Memory optimization** with history limits
-- **Smooth interactions** with debounced saving
-
-### **Storage**
-
-- **Chrome Storage API** for persistence
-- **Per-mode separation** - independent canvases
-- **Per-URL storage** for webpage annotations
-- **Automatic cleanup** of old data
-
-## 🎯 **Professional Use Cases**
-
-### **Design & Creativity**
-
-- **Wireframing** and UI mockups
-- **Concept sketching** and brainstorming
-- **Visual note-taking** during meetings
-- **Annotation** of designs and documents
-
-### **Education & Training**
-
-- **Online teaching** with screen annotation
-- **Student collaboration** on web content
-- **Visual explanations** of complex topics
-- **Interactive presentations**
-
-### **Business & Productivity**
-
-- **Web page feedback** and reviews
-- **Process documentation** with visual aids
-- **Team collaboration** on digital content
-- **Quick ideation** and planning
-
-## 🔧 **Advanced Settings**
-
-### **Customizable Defaults**
-
-- **Tool sizes**: Adjust default sizes for each tool
-- **Color palette**: Modify quick-access colors
-- **Canvas settings**: Background color, grid options
-- **Auto-save frequency**: Customize save intervals
-
-
-## 🐛 **Troubleshooting**
-
-### **Common Issues**
-
-- **Extension not loading**: Enable Developer Mode in chrome://extensions/
-- **Side panel not working**: Requires Chrome 114+
-- **Drawing not smooth**: Check if hardware acceleration is enabled
-- **Storage issues**: Clear extension data in Chrome settings
-
-### **Performance Tips**
-
-- **Use smaller stroke widths** for complex drawings
-- **Clear old drawings** periodically
-- **Close unused tabs** with active draw-on-page mode
-- **Restart Chrome** if experiencing lag
-
-
-## 📄 **License**
-
-This project is open source and available under the MIT License.
-
-
-Built with modern web technologies and Chrome Extension APIs. Inspired by professional drawing applications and designed to match the functionality of webwhiteboard.com while providing superior integration with your browsing experience.
+</div>
 
 ---
 
-**Experience professional-grade whiteboarding directly in your browser with WebWhiteboard+ v1.0! 🎨✨**
+## 🚀 **What Makes WebWhiteboard+ Special?**
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎯 **Dual-Mode Experience**
+Switch seamlessly between **Sidebar Workspace** for dedicated drawing and **Webpage Annotation** for direct website markup.
+
+### ⚡ **Professional Tools**
+Ultra-smooth drawing engine with advanced selection, infinite canvas, and 60 FPS performance.
+
+### 💾 **Smart Persistence**
+Your drawings auto-save and persist per website. Return anytime to continue where you left off.
+
+</td>
+<td width="50%">
+
+### 🎨 **Creative Freedom**
+Infinite canvas with pan & zoom, professional color palettes, and shape tools that rival desktop apps.
+
+### ⌨️ **Power User Ready**
+Complete keyboard shortcuts, multi-select, undo/redo history, and export capabilities.
+
+### 🌐 **Universal Compatibility**
+Works on any website, with floating toolbars that never interfere with your browsing.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎬 **See It In Action**
+
+<div align="center">
+
+### 📋 **Sidebar Workspace Mode**
+*Your dedicated creative environment*
+
+![Sidebar Mode](https://github.com/user-attachments/assets/a7827bda-9376-4840-8666-8d59543f6024)
+
+### 🖊️ **Webpage Annotation Mode** 
+*Draw directly on any website*
+
+<table>
+<tr>
+<td><img src="https://github.com/user-attachments/assets/00f6fc2b-2f59-4345-a4d2-887bf0def60f" width="600"/></td>
+<td><img src="https://github.com/user-attachments/assets/cb31db62-552c-4fd9-9dfe-ee71e11f5d76" width="600"/></td>
+</tr>
+</table>
+
+![Overview](https://github.com/user-attachments/assets/940fbcd7-27b5-4c01-b296-fa4f72aaf9c4)
+
+</div>
+
+---
+
+## ✨ **Feature Spotlight**
+
+<details>
+<summary><b>🎨 Advanced Drawing Engine</b></summary>
+
+- **Ultra-smooth curves** with professional interpolation
+- **Individual tool memory** - each tool remembers its size
+- **High-DPI rendering** for crisp lines on any display
+- **Pressure simulation** with variable line thickness
+- **Anti-aliasing** for professional-quality output
+
+</details>
+
+<details>
+<summary><b>🖱️ Intelligent Object System</b></summary>
+
+- **Smart selection** - click objects or drag selection box
+- **Live editing** - modify color/size after drawing
+- **Multi-object operations** - select, move, delete multiple items
+- **Undo/Redo system** with 100-step history
+- **Object persistence** across browser sessions
+
+</details>
+
+<details>
+<summary><b>🌐 Infinite Canvas</b></summary>
+
+- **Unlimited drawing space** - never run out of room
+- **Smooth pan & zoom** (10% - 500% range)
+- **Smart zoom-to-cursor** positioning
+- **Fit-to-content** auto-framing
+- **View state persistence** across sessions
+
+</details>
+
+<details>
+<summary><b>🛠️ Professional Toolset</b></summary>
+
+- **Pen Tool** - Natural drawing with smooth curves
+- **Eraser Tool** - Clean object-based erasing  
+- **Select Tool** - Move and edit existing objects
+- **Shape Tools** - Rectangle, Circle, Line with preview
+- **Text Tool** - Custom sizing with click-to-place
+- **Color System** - 8 quick colors + custom picker
+
+</details>
+
+---
+
+## 🚀 **Quick Start Guide**
+
+### **Installation** *(2 minutes)*
+
+```bash
+# Method 1: Clone Repository
+git clone https://github.com/Ratna-Babu/WebWhiteboardPlus.git
+cd WebWhiteboardPlus
+
+# Method 2: Download ZIP
+# Download from GitHub → Extract → Follow steps below
+```
+
+1. **Open Chrome** → Navigate to `chrome://extensions/`
+2. **Enable Developer Mode** (toggle top-right)
+3. **Click "Load unpacked"** → Select the project folder
+4. **Done!** 🎉 The extension icon appears in your toolbar
+
+### **First Launch** *(30 seconds)*
+
+<table>
+<tr>
+<td width="50%">
+
+**For Sidebar Drawing:**
+1. Right-click extension icon
+2. Select "Open Side Panel"
+3. Start creating immediately!
+
+</td>
+<td width="50%">
+
+**For Webpage Annotation:**
+1. Open sidebar panel
+2. Click "Draw on this page"
+3. Annotate any website!
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⌨️ **Power User Shortcuts**
+
+<div align="center">
+
+| Category | Shortcut | Action |
+|----------|----------|--------|
+| **🎨 Tools** | `P` / `E` / `V` | Pen / Eraser / Select |
+| **📐 Shapes** | `R` / `C` / `L` / `T` | Rectangle / Circle / Line / Text |
+| **✏️ Edit** | `Ctrl+Z` / `Ctrl+Y` | Undo / Redo |
+| **🎯 Select** | `Ctrl+A` / `Delete` | Select All / Delete Selected |
+| **💾 File** | `Ctrl+S` / `Escape` | Save PNG / Clear Selection |
+| **🔍 View** | `Mouse Wheel` / `Middle Click` | Zoom / Pan Canvas |
+
+</div>
+
+---
+
+## 🎯 **Professional Use Cases**
+
+<table align="center">
+<tr>
+<td width="33%" align="center">
+
+### 🎨 **Design & Creative**
+- UI/UX wireframing
+- Concept sketching
+- Visual brainstorming
+- Design annotation
+- Creative collaboration
+
+</td>
+<td width="33%" align="center">
+
+### 📚 **Education & Training**
+- Online teaching aids
+- Student collaboration
+- Interactive presentations
+- Visual explanations
+- Screen annotation
+
+</td>
+<td width="33%" align="center">
+
+### 💼 **Business & Productivity**
+- Web page feedback
+- Process documentation
+- Team collaboration
+- Quick ideation
+- Meeting notes
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔧 **Technical Excellence**
+
+<div align="center">
+
+### **Performance Metrics**
+
+| Feature | Specification |
+|---------|---------------|
+| **Rendering** | 60 FPS with requestAnimationFrame |
+| **Memory** | Optimized object storage with cleanup |
+| **Storage** | Chrome Storage API with per-URL isolation |
+| **History** | 100-step undo/redo system |
+| **Export** | Automatic bounds detection PNG export |
+
+### **Technology Stack**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Chrome Extension](https://img.shields.io/badge/Chrome_Extension_API-v3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![HTML5 Canvas](https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3_Animations-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+</div>
+
+---
+
+## 🆚 **Why Choose WebWhiteboard+?**
+
+<table>
+<tr>
+<th width="25%">Feature</th>
+<th width="25%">WebWhiteboard+</th>
+<th width="25%">Other Extensions</th>
+<th width="25%">Desktop Apps</th>
+</tr>
+<tr>
+<td><b>🚀 Installation</b></td>
+<td>✅ One-click install</td>
+<td>✅ Browser only</td>
+<td>❌ Complex setup</td>
+</tr>
+<tr>
+<td><b>🌐 Website Integration</b></td>
+<td>✅ Direct webpage drawing</td>
+<td>❌ Limited or none</td>
+<td>❌ No web integration</td>
+</tr>
+<tr>
+<td><b>🎨 Professional Tools</b></td>
+<td>✅ Complete toolset</td>
+<td>⚠️ Basic tools only</td>
+<td>✅ Advanced features</td>
+</tr>
+<tr>
+<td><b>💾 Auto-save</b></td>
+<td>✅ Per-website persistence</td>
+<td>❌ Manual save only</td>
+<td>⚠️ Local files only</td>
+</tr>
+<tr>
+<td><b>⚡ Performance</b></td>
+<td>✅ 60 FPS smooth</td>
+<td>❌ Often laggy</td>
+<td>✅ High performance</td>
+</tr>
+</table>
+
+---
+
+## 🐛 **Troubleshooting & Support**
+
+<details>
+<summary><b>🔧 Common Issues & Solutions</b></summary>
+
+| Issue | Solution |
+|-------|----------|
+| Extension not loading | Enable Developer Mode in `chrome://extensions/` |
+| Side panel not opening | Requires Chrome 114+ |
+| Drawing feels laggy | Enable hardware acceleration in Chrome settings |
+| Drawings not saving | Check Chrome storage permissions |
+| Tools not responding | Refresh page or restart extension |
+
+</details>
+
+<details>
+<summary><b>📊 Performance Optimization</b></summary>
+
+- **For complex drawings:** Use smaller stroke widths
+- **For better performance:** Close unused annotation tabs
+- **For memory efficiency:** Clear old drawings periodically  
+- **For troubleshooting:** Restart Chrome if experiencing issues
+
+</details>
+
+<details>
+<summary><b>💡 Pro Tips</b></summary>
+
+- **Keyboard shortcuts** make you 3x faster
+- **Right-click colors** to set as default
+- **Double-click objects** to edit properties
+- **Use Ctrl+Shift+I** to inspect canvas state
+- **Middle-click drag** for smooth panning
+
+</details>
+
+---
+
+## 🤝 **Contributing**
+<div align="center">
+We welcome contributions! Here's how you can help make WebWhiteboard+ even better:
+  
+<br>
+<br> 
+
+<a href="https://github.com/Ratna-Babu/WebWhiteboardPlus/graphs/contributors"> 
+  <img src="https://contrib.rocks/image?repo=Ratna-Babu/WebWhiteboardPlus" />
+</a>
+</div>
+<div align="center">
+
+### 🌟 **Ways to Contribute**
+
+[![Report Bug](https://img.shields.io/badge/🐛_Report_Bug-FF4444?style=for-the-badge)](https://github.com/Ratna-Babu/WebWhiteboardPlus/issues)
+[![Request Feature](https://img.shields.io/badge/💡_Request_Feature-44FF44?style=for-the-badge)](https://github.com/Ratna-Babu/WebWhiteboardPlus/issues)
+[![Submit PR](https://img.shields.io/badge/🔧_Submit_PR-4444FF?style=for-the-badge)](https://github.com/Ratna-Babu/WebWhiteboardPlus/pulls)
+[![Star Repo](https://img.shields.io/badge/⭐_Star_Repo-FFD700?style=for-the-badge)](https://github.com/Ratna-Babu/WebWhiteboardPlus)
+
+</div>
+
+---
+
+## 🙏 **Acknowledgments**
+
+<div align="center">
+
+**Special thanks to:**
+- The Chrome Extensions community for invaluable feedback
+- Open source contributors who inspire innovation
+- Beta testers who helped refine the experience
+- Everyone who starred ⭐ this project
+
+</div>
+
+---
+
+<div align="center">
+
+### 🎨 **Ready to Transform Your Web Experience?**
+
+[![Install Now](https://img.shields.io/badge/🚀_Install_WebWhiteboard+-FF6B6B?style=for-the-badge&logoColor=white)](https://github.com/Ratna-Babu/WebWhiteboardPlus)
+[![Star Project](https://img.shields.io/badge/⭐_Star_on_GitHub-FFD93D?style=for-the-badge&logoColor=black)](https://github.com/Ratna-Babu/WebWhiteboardPlus)
+
+---
+
+**Made with ❤️ by [Ratna Babu](https://github.com/Ratna-Babu) | WebWhiteboard+ v1.0**
+
+*"Every great idea starts with a simple sketch"* ✨
+
+</div>
